@@ -11,7 +11,7 @@ var (
 )
 
 func GetUser(userID int64) (*User, error) {
-	if user := users[userID]; users != nil {
+	if user := users[userID]; user != nil {
 		return user, nil
 	}
 	return nil, fmt.Errorf("user %v was not found", userID)
