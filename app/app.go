@@ -26,7 +26,7 @@ Request
 
 POST https://api.github.com/user/repos
 
--H "Authorization: token b2e71fabae3260b83ff32b5629ecbc86d66c6036"
+-H "Authorization: token ${my_auth_token}"
 
 {
     "name": "golang-tut",
